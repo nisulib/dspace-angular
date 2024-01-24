@@ -63,6 +63,11 @@
       [index]="'subject'">
     </ds-item-page-metadata-search-link>
     <ds-generic-item-page-field [item]="object"
+      [fields]="['local.subject.scientificname']"
+      [separator]="'; '"
+      [label]="'item.page.subject.scientificname'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
       [fields]="['dc.identifier.citation']"
       [label]="'item.page.citation'">
     </ds-generic-item-page-field>
