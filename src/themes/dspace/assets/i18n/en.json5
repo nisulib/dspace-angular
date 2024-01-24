@@ -12,5 +12,8 @@
   "search.form.scope.all": "All of Kaalam",
   "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to Kaalam.",
   "title": "Kaalam: NISU Institutional Repository",
-  "item.page.external-url": "External Download URL"
+  "item.page.doi": "DOI",
+  "item.page.external-url": "Associated content",
+  "item.page.subject.scientificname": "Taxonomic term",
+  "item.page.coverage.spatial": "Geographic name"
 }

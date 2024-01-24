@@ -1470,7 +1470,7 @@
 
   "dso-selector.set-scope.community.head": "Select a search scope",
 
-  "dso-selector.set-scope.community.button": "Search all of DSpace",
+  "dso-selector.set-scope.community.button": "Search all of Kaalam",
 
   "dso-selector.set-scope.community.or-divider": "or",
 
@@ -1838,7 +1838,7 @@
 
   "home.title": "Home",
 
-  "home.top-level-communities.head": "Communities in DSpace",
+  "home.top-level-communities.head": "Communities in Kaalam",
 
   "home.top-level-communities.help": "Select a community to browse its collections.",
 
@@ -1872,7 +1872,7 @@
 
   "info.feedback.title": "Feedback",
 
-  "info.feedback.info": "Thanks for sharing your feedback about the DSpace system. Your comments are appreciated!",
+  "info.feedback.info": "Thanks for sharing your feedback about Kaalam: NISU Institutionala Repository. Your comments are appreciated!",
 
   "info.feedback.email_help": "This address will be used to follow up on your feedback.",
 
@@ -2768,7 +2768,7 @@
 
   "login.form.forgot-password": "Have you forgotten your password?",
 
-  "login.form.header": "Please log in to DSpace",
+  "login.form.header": "Please log in to Kaalam",
 
   "login.form.new-user": "New user? Click here to register.",
 
@@ -2786,7 +2786,7 @@
 
   "login.breadcrumbs": "Login",
 
-  "logout.form.header": "Log out from DSpace",
+  "logout.form.header": "Log out from Kaalam",
 
   "logout.form.submit": "Log out",
 
@@ -2818,7 +2818,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "All of DSpace",
+  "menu.section.browse_global": "Browse",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -3038,7 +3038,7 @@
 
   "mydspace.view-btn": "View",
 
-  "nav.browse.header": "All of DSpace",
+  "nav.browse.header": "All of Kaalam",
 
   "nav.community-browse.header": "By Community",
 
@@ -3414,7 +3414,7 @@
 
   "register-page.registration.header": "New user registration",
 
-  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
+  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to Kaalam.",
 
   "register-page.registration.email": "Email Address *",
 
@@ -3496,9 +3496,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title": "DSpace Repository",
+  "repository.title": "Kaalam: NISU Institutional Repository",
 
-  "repository.title.prefix": "DSpace Repository :: ",
+  "repository.title.prefix": "Kaalam: NISU Institutional Repository :: ",
 
   "resource-policies.add.button": "Add",
 
@@ -3842,7 +3842,7 @@
 
   "search.form.search_dspace": "All repository",
 
-  "search.form.scope.all": "All of DSpace",
+  "search.form.scope.all": "All of Kaalam",
 
   "search.results.head": "Search Results",
 
@@ -3976,7 +3976,7 @@
 
   "submission.import-external.title.none": "Import metadata from an external source",
 
-  "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to DSpace.",
+  "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to Kaalam.",
 
   "submission.import-external.back-to-my-dspace": "Back to MyDSpace",
 
@@ -4742,7 +4742,7 @@
 
   "thumbnail.person.placeholder": "No Profile Picture Available",
 
-  "title": "DSpace",
+  title: "Kaalam: NISU Institutional Repository",
 
   "vocabulary-treeview.header": "Hierarchical tree view",
 
@@ -5234,4 +5234,11 @@
 
   "vocabulary-treeview.search.form.add": "Add",
 
+  "item.page.external-url": "Associated content",
+
+  "item.page.subject.scientificname": "Taxonomic term",
+
+  "item.page.coverage.spatial": "Geographic name",
+
+  "item.page.doi": "DOI",
 }
