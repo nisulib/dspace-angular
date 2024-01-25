@@ -15,5 +15,9 @@
   "item.page.doi": "DOI",
   "item.page.external-url": "Associated content",
   "item.page.subject.scientificname": "Taxonomic term",
-  "item.page.coverage.spatial": "Geographic name"
+  "item.page.coverage.spatial": "Geographic name",
+  "item.preview.dc.citation.issue": "Issue",
+  "item.preview.dc.citation.volume": "Volume",
+  "item.preview.dc.identifier.issn": "ISSN",
+  "item.preview.dc.citation.journaltitle": "Journal title"
 }
