@@ -2,9 +2,11 @@
   nav.navbar {
     display: none;
   }
-  .header {
-    background-color: var(--ds-header-bg);
-  }
+}
+
+/* always set header background, not only on medium size screens! */
+.header {
+  background-color: var(--ds-header-bg);
 }
 
 .navbar-brand img {
