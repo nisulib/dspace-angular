@@ -61,7 +61,9 @@
                 "bundleName": "dspace-theme"
               }
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/load-plumx-widget.js"
+            ],
             "baseHref": "/"
           },
           "configurations": {
