@@ -11,5 +11,9 @@
   "repository.title.prefix": "Kaalam: NISU Institutional Repository :: ",
   "search.form.scope.all": "All of Kaalam",
   "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to Kaalam.",
-  "title": "Kaalam: NISU Institutional Repository"
+  "title": "Kaalam: NISU Institutional Repository",
+  "item.preview.dc.citation.issue": "Issue",
+  "item.preview.dc.citation.volume": "Volume",
+  "item.preview.dc.identifier.issn": "ISSN",
+  "item.preview.dc.citation.journaltitle": "Journal title"
 }
