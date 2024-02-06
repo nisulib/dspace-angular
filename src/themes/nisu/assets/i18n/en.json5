@@ -1,0 +1,15 @@
+{
+  "menu.section.browse_global": "Browse",
+  "dso-selector.set-scope.community.button": "Search all of Kaalam",
+  "home.top-level-communities.head": "Communities in Kaalam",
+  "info.feedback.info": "Thanks for sharing your feedback about Kaalam: NISU Institutionala Repository. Your comments are appreciated!",
+  "login.form.header": "Please log in to Kaalam",
+  "logout.form.header": "Log out from Kaalam",
+  "nav.browse.header": "All of Kaalam",
+  "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to Kaalam.",
+  "repository.title": "Kaalam: NISU Institutional Repository",
+  "repository.title.prefix": "Kaalam: NISU Institutional Repository :: ",
+  "search.form.scope.all": "All of Kaalam",
+  "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to Kaalam.",
+  "title": "Kaalam: NISU Institutional Repository"
+}
