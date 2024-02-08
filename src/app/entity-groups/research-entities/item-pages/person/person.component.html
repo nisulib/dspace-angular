@@ -21,6 +21,35 @@
       [fields]="['person.birthDate']"
       [label]="'person.page.birthdate'">
     </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.subject']"
+      [separator]="', '"
+      [label]="'Fields of Specialization'">
+    </ds-generic-item-page-field>
+    <div class="item-page-field" style="margin-bottom: 15px;" *ngFor="let orcid of object.metadata['person.identifier.orcid']|keyvalue">
+      <div class="simple-view-element">
+        <h2 class="simple-view-element-header" style="font-size: 1.25rem;">{{"person.page.orcid" | translate}}</h2>
+        <div class="simple-view-element-body">
+          <a class="dont-break-out" href="https://orcid.org/{{orcid.value.value}}" target="_blank">{{orcid.value.value}}</a>
+        </div>
+      </div>
+    </div>
+    <div class="item-page-field" style="margin-bottom: 15px;" *ngFor="let scopus of object.metadata['person.identifier.scopus-author-id']|keyvalue">
+      <div class="simple-view-element">
+        <h2 class="simple-view-element-header" style="font-size: 1.25rem;">{{"submission.import-external.source.scopus" | translate}}</h2>
+        <div class="simple-view-element-body">
+          <a class="dont-break-out" href="https://www.scopus.com/authid/detail.uri?authorId={{scopus.value.value}}" target="_blank">{{scopus.value.value}}</a>
+        </div>
+      </div>
+    </div>
+    <div class="item-page-field" style="margin-bottom: 15px;" *ngFor="let scholar of object.metadata['person.identifier.gsid']|keyvalue">
+      <div class="simple-view-element">
+        <h2 class="simple-view-element-header" style="font-size: 1.25rem;">{{"person.page.gs" | translate}}</h2>
+        <div class="simple-view-element-body">
+          <a class="dont-break-out" href="https://scholar.google.com/citations?user={{scholar.value.value}}" target="_blank">Google Scholar Profile</a>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="col-xs-12 col-md-7">
     <ds-related-items
@@ -38,6 +67,10 @@
       [label]="'person.page.jobtitle'">
     </ds-generic-item-page-field>
     <ds-generic-item-page-field [item]="object"
+      [fields]="['person.designation']"
+      [label]="'Designation'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
       [fields]="['person.familyName']"
       [label]="'person.page.lastname'">
     </ds-generic-item-page-field>
@@ -48,6 +81,10 @@
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.title']"
       [label]="'person.page.name'">
+    </ds-generic-item-page-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['dc.description.abstract']"
+      [label]="'Biography'">
     </ds-generic-item-page-field>
     <div>
       <a class="btn btn-outline-primary" [routerLink]="[itemPageRoute + '/full']">

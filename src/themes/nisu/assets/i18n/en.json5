@@ -15,5 +15,6 @@
   "item.preview.dc.citation.issue": "Issue",
   "item.preview.dc.citation.volume": "Volume",
   "item.preview.dc.identifier.issn": "ISSN",
-  "item.preview.dc.citation.journaltitle": "Journal title"
+  "item.preview.dc.citation.journaltitle": "Journal title",
+  "person.page.gs": "Google Scholar"
 }
