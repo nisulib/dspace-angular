@@ -66,11 +66,12 @@
       [label]="'item.page.description'">
     </ds-generic-item-page-field>
 
-    <ds-generic-item-page-field [item]="object"
-      [fields]="['dc.subject']"
-      [separator]="', '"
-      [label]="'item.page.subject'">
-    </ds-generic-item-page-field>
+    <ds-item-page-metadata-search-link [item]="object"
+      [fields]="['*.subject']"
+      [separator]="'; '"
+      [label]="'item.page.subject'"
+      [index]="'subject'">
+    </ds-item-page-metadata-search-link>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.identifier.citation']"
       [label]="'item.page.citation'">
