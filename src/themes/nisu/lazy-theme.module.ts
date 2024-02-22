@@ -41,6 +41,8 @@ import { TranslateModule } from '@ngx-translate/core';
 import { HomePageModule } from '../../app/home-page/home-page.module';
 import { AppModule } from '../../app/app.module';
 import { ItemPageModule } from '../../app/item-page/item-page.module';
+import { FileSectionComponent } from './app/item-page/simple/field-components/file-section/file-section.component';
+import { BitstreamDownloadCounterComponent } from './app/bitstream-download-counter/bitstream-download-counter.component';
 import { RouterModule } from '@angular/router';
 import { CommunityListPageModule } from '../../app/community-list-page/community-list-page.module';
 import { InfoModule } from '../../app/info/info.module';
@@ -62,6 +64,8 @@ import { ItemVersionsModule } from '../../app/item-page/versions/item-versions.m
 import { ItemSharedModule } from 'src/app/item-page/item-shared.module';
 
 const DECLARATIONS = [
+  BitstreamDownloadCounterComponent,
+  FileSectionComponent
 ];
 
 @NgModule({
