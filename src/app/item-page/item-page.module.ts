@@ -19,6 +19,7 @@ import { ItemPageUriFieldComponent } from './simple/field-components/specific-fi
 import { ItemPageAltmetricFieldComponent } from './simple/field-components/specific-field/altmetric/item-page-altmetric-field.component';
 import { ItemPageDimensionsFieldComponent } from './simple/field-components/specific-field/dimensions/item-page-dimensions-field.component';
 import { ItemPagePlumxFieldComponent } from './simple/field-components/specific-field/plumx/item-page-plumx-field.component';
+import { ItemPageMetadataSearchLinkFieldComponent } from './simple/field-components/specific-field/metadata-search-link/item-page-metadata-search-link-field.component';
 import { ItemPageFieldComponent } from './simple/field-components/specific-field/item-page-field.component';
 import { CollectionsComponent } from './field-components/collections/collections.component';
 import { FullItemPageComponent } from './full/full-item-page.component';
@@ -85,6 +86,7 @@ const DECLARATIONS = [
   ItemPageAltmetricFieldComponent,
   ItemPageDimensionsFieldComponent,
   ItemPagePlumxFieldComponent,
+  ItemPageMetadataSearchLinkFieldComponent,
   ItemPageFieldComponent,
   CollectionsComponent,
   FullFileSectionComponent,
