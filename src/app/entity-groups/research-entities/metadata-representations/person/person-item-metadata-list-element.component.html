@@ -12,4 +12,8 @@
   <a [routerLink]="[itemPageRoute]"
      [innerHTML]="mdRepresentation.getValue()"
      [ngbTooltip]="mdRepresentation.allMetadata(['person.jobTitle']).length > 0 ? descTemplate : null"></a>
+  <a *ngIf="mdRepresentation.allMetadata(['person.identifier.orcid']).length > 0" href="https://orcid.org/{{ mdRepresentation.firstMetadataValue('person.identifier.orcid')}}" target="_blank">
+    <img src="assets/images/orcid_16x16.png" style="margin-bottom:.1em; margin-left:.1em;" alt="ORCID iD icon"
+    [ngbTooltip]="mdRepresentation.firstMetadataValue('person.identifier.orcid')">
+  </a>
 </ds-truncatable>
