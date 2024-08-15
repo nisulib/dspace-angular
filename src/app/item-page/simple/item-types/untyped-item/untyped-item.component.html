@@ -2,9 +2,9 @@
 <div class="row" *ngIf="iiifEnabled">
   <div class="col-12">
     <ds-mirador-viewer id="iiif-viewer"
-                   [object]="object"
-                   [searchable]="iiifSearchEnabled"
-                   [query]="iiifQuery$ | async">
+        [object]="object"
+        [searchable]="iiifSearchEnabled"
+        [query]="iiifQuery$ | async">
     </ds-mirador-viewer>
   </div>
 </div>
@@ -66,11 +66,38 @@
       [label]="'item.page.description'">
     </ds-generic-item-page-field>
 
-    <ds-item-page-metadata-search-link [item]="object"
-      [fields]="['*.subject']"
+    <ds-item-page-sdg-field [item]="object"
+      [fields]="['dc.subject.sdg']"
+      [label]="'item.page.sdg'">
+    </ds-item-page-sdg-field>
+    <ds-generic-item-page-field [item]="object"
+      [fields]="['local.subject']"
       [separator]="'; '"
-      [label]="'item.page.subject'"
+      [label]="'item.page.subject'">
+    </ds-generic-item-page-field>
+    <ds-item-page-metadata-search-link [item]="object"
+      [fields]="['dc.subject']"
+      [separator]="'; '"
+      [label]="'item.page.subject-agrovoc'"
       [index]="'subject'">
+    </ds-item-page-metadata-search-link>
+    <ds-item-page-metadata-search-link [item]="object"
+      [fields]="['local.subject.scientificname']"
+      [separator]="'; '"
+      [label]="'item.page.subject-scientificname'"
+      [index]="'scientificname'">
+    </ds-item-page-metadata-search-link>
+    <ds-item-page-metadata-search-link [item]="object"
+      [fields]="['dc.subject.lcsh']"
+      [separator]="'; '"
+      [label]="'item.page.lcsh'"
+      [index]="'lcsh'">
+    </ds-item-page-metadata-search-link>
+    <ds-item-page-metadata-search-link [item]="object"
+      [fields]="['dc.coverage.spatial']"
+      [separator]="'; '"
+      [label]="'item.page.geographic-name'"
+      [index]="'geographicname'">
     </ds-item-page-metadata-search-link>
     <ds-generic-item-page-field [item]="object"
       [fields]="['dc.identifier.citation']"
@@ -84,7 +111,7 @@
       <div class="simple-view-element">
         <h2 class="simple-view-element-header" style="font-size: 1.25rem;">{{"item.page.doi" | translate}}</h2>
         <div class="simple-view-element-body">
-          <a class="dont-break-out" href="https://doi.org/{{doi.value.value}}" target="_blank">{{doi.value.value}}</a>
+      <a class="dont-break-out" href="https://doi.org/{{doi.value.value}}" target="_blank">{{doi.value.value}}</a>
         </div>
       </div>
     </div>
@@ -92,7 +119,7 @@
       <div class="simple-view-element">
         <h2 class="simple-view-element-header" style="font-size: 1.25rem;">{{"item.page.external-url" | translate}}</h2>
         <div class="simple-view-element-body">
-          <a class="dont-break-out" href="{{url.value.value}}" target="_blank">{{ parseUrl(url.value.value) }}</a>
+      <a class="dont-break-out" href="{{url.value.value}}" target="_blank">{{ parseUrl(url.value.value) }}</a>
         </div>
       </div>
     </div>
